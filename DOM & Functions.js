@@ -100,3 +100,11 @@ function changeTextColor() {
     const sampleText = document.getElementById('sampleText');
     sampleText.style.color = color;
 }
+
+//Write a JavaScript function to get the values of First and Last names of the following form.
+
+
+let Fname=document.getElementById('Fname').getAttribute('value')
+let Lname=document.getElementById('Lname').getAttribute('value')
+console.log(Fname);
+console.log(Lname);

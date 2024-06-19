@@ -83,7 +83,7 @@ sumEvenNumbers(2, 10)
 
 //Write a JavaScript program to remove items(clicking on a button) from a drop-down list.
 
-function removeSelectedItem(){
+function remove(){
     const selectcolor=document.getElementById('colorSelect')
     const selectedIndex=selectcolor.selectedIndex
 
@@ -94,7 +94,7 @@ function removeSelectedItem(){
 
 //Write a JavaScript program to change the  color given text in p tag  
 
-function changeTextColor() {
+function changeColor() {
     const selectElement = document.getElementById('colorSelect2');
     const color = selectElement.value;
     const sampleText = document.getElementById('sampleText');
